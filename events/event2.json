@@ -1,0 +1,85 @@
+{
+   "type":"REQUEST",
+   "methodArn":"arn:aws:execute-api:us-east-1:924169428395:fq7q8ldwc8/dev/GET/metrics",
+   "resource":"/metrics",
+   "path":"/metrics",
+   "httpMethod":"GET",
+   "headers":{
+      "accept":"*/*",
+      "cookie":"token=eyJraWQiOiJhZ2FuamduWE1mdlhcL0Z5cGFGVVlcL3kyZlJtOTUwMlE2NVBubkFmeEtoazg9IiwiYWxnIjoiUlMyNTYifQ.eyJhdF9oYXNoIjoiOUxSMVluV2txWU9XX3RITXQwUFB3ZyIsInN1YiI6IjJmOTcyOTZjLTU4NzEtNGYxNi05YmNiLThkMjg0Y2IwNmRhNyIsImNvZ25pdG86Z3JvdXBzIjpbInRlbmFudDEiXSwiaXNzIjoiaHR0cHM6XC9cL2NvZ25pdG8taWRwLnVzLWVhc3QtMS5hbWF6b25hd3MuY29tXC91cy1lYXN0LTFfN29KVE1leW03IiwiY29nbml0bzp1c2VybmFtZSI6InRvbWVyIiwiY3VzdG9tOnRlbmFudF9pZCI6InRlbmFudDEiLCJjdXN0b206Y29tcGFueSI6IkludGVsIiwiYXVkIjoiNDF2YWoxZmFhMmYxdmkyYm1kb3JsNnY2ZHUiLCJldmVudF9pZCI6IjEzZGZkMmZmLTgyMDUtNGRkZC1hZmNkLWZiMDcxMmU2Njk0MyIsInRva2VuX3VzZSI6ImlkIiwiYXV0aF90aW1lIjoxNjM3Nzk3NDMyLCJleHAiOjE2Mzc4ODM4MzIsImN1c3RvbTpyb2xlIjoiVGVuYW50VXNlciIsImlhdCI6MTYzNzc5NzQzMiwianRpIjoiMzA3NTE1NWMtZTk1ZS00MjJiLThjZWQtMDgxNTI2YjRkNzJjIiwiZW1haWwiOiJ0b21lckB0ZXN0LmNvbSJ9.YyQXGrVHUBA-quopR5ltVThT1ag6fHliTPzH_hKlc5u7XH1zRRp0tCU5y9CZmSSHlZ6pxfi86FdLcrKRxV91XzBNGtOORlwyVJAWTPuejk972p580bWHCFFEekv2TbcToqnaYc725ak8ZNWtEUvt9yPiQtAcdG2gBzIIQmcZlavnctG0MMV9A5KlqXMcl7wA3Nc1Fd00CWhJg9OAhQ5hAoEcXK7a7jmfscBQjrKJyRWvDLh27IYuLSELitgmt_xjFMC2IMX-GnfoiimCp72sMX0C5JYLQUlk1Kk7IjxEVWebnvoTPySsz3R-x4ahXgKdynHhqriqOxQInhoO01ttKA",
+      "Host":"fq7q8ldwc8.execute-api.us-east-1.amazonaws.com",
+      "user-agent":"curl/7.68.0",
+      "X-Amzn-Trace-Id":"Root=1-619f8dad-2c66fbc20be0085a0d13d51e",
+      "X-Forwarded-For":"83.130.138.24",
+      "X-Forwarded-Port":"443",
+      "X-Forwarded-Proto":"https"
+   },
+   "multiValueHeaders":{
+      "accept":[
+         "*/*"
+      ],
+      "cookie":[
+         "token=eyJraWQiOiJhZ2FuamduWE1mdlhcL0Z5cGFGVVlcL3kyZlJtOTUwMlE2NVBubkFmeEtoazg9IiwiYWxnIjoiUlMyNTYifQ.eyJhdF9oYXNoIjoiOUxSMVluV2txWU9XX3RITXQwUFB3ZyIsInN1YiI6IjJmOTcyOTZjLTU4NzEtNGYxNi05YmNiLThkMjg0Y2IwNmRhNyIsImNvZ25pdG86Z3JvdXBzIjpbInRlbmFudDEiXSwiaXNzIjoiaHR0cHM6XC9cL2NvZ25pdG8taWRwLnVzLWVhc3QtMS5hbWF6b25hd3MuY29tXC91cy1lYXN0LTFfN29KVE1leW03IiwiY29nbml0bzp1c2VybmFtZSI6InRvbWVyIiwiY3VzdG9tOnRlbmFudF9pZCI6InRlbmFudDEiLCJjdXN0b206Y29tcGFueSI6IkludGVsIiwiYXVkIjoiNDF2YWoxZmFhMmYxdmkyYm1kb3JsNnY2ZHUiLCJldmVudF9pZCI6IjEzZGZkMmZmLTgyMDUtNGRkZC1hZmNkLWZiMDcxMmU2Njk0MyIsInRva2VuX3VzZSI6ImlkIiwiYXV0aF90aW1lIjoxNjM3Nzk3NDMyLCJleHAiOjE2Mzc4ODM4MzIsImN1c3RvbTpyb2xlIjoiVGVuYW50VXNlciIsImlhdCI6MTYzNzc5NzQzMiwianRpIjoiMzA3NTE1NWMtZTk1ZS00MjJiLThjZWQtMDgxNTI2YjRkNzJjIiwiZW1haWwiOiJ0b21lckB0ZXN0LmNvbSJ9.YyQXGrVHUBA-quopR5ltVThT1ag6fHliTPzH_hKlc5u7XH1zRRp0tCU5y9CZmSSHlZ6pxfi86FdLcrKRxV91XzBNGtOORlwyVJAWTPuejk972p580bWHCFFEekv2TbcToqnaYc725ak8ZNWtEUvt9yPiQtAcdG2gBzIIQmcZlavnctG0MMV9A5KlqXMcl7wA3Nc1Fd00CWhJg9OAhQ5hAoEcXK7a7jmfscBQjrKJyRWvDLh27IYuLSELitgmt_xjFMC2IMX-GnfoiimCp72sMX0C5JYLQUlk1Kk7IjxEVWebnvoTPySsz3R-x4ahXgKdynHhqriqOxQInhoO01ttKA"
+      ],
+      "Host":[
+         "fq7q8ldwc8.execute-api.us-east-1.amazonaws.com"
+      ],
+      "user-agent":[
+         "curl/7.68.0"
+      ],
+      "X-Amzn-Trace-Id":[
+         "Root=1-619f8dad-2c66fbc20be0085a0d13d51e"
+      ],
+      "X-Forwarded-For":[
+         "83.130.138.24"
+      ],
+      "X-Forwarded-Port":[
+         "443"
+      ],
+      "X-Forwarded-Proto":[
+         "https"
+      ]
+   },
+   "queryStringParameters":{
+      
+   },
+   "multiValueQueryStringParameters":{
+      
+   },
+   "pathParameters":{
+      
+   },
+   "stageVariables":{
+      
+   },
+   "requestContext":{
+      "resourceId":"q78i5r",
+      "resourcePath":"/metrics",
+      "httpMethod":"GET",
+      "extendedRequestId":"JXMTFFqyIAMFqMw=",
+      "requestTime":"25/Nov/2021:13:20:45 +0000",
+      "path":"/dev/metrics",
+      "accountId":"924169428395",
+      "protocol":"HTTP/1.1",
+      "stage":"dev",
+      "domainPrefix":"fq7q8ldwc8",
+      "requestTimeEpoch":1637846445119,
+      "requestId":"b2e07724-d6bf-4e11-81fe-ea98d919e60e",
+      "identity":{
+         "cognitoIdentityPoolId":"None",
+         "accountId":"None",
+         "cognitoIdentityId":"None",
+         "caller":"None",
+         "sourceIp":"83.130.138.24",
+         "principalOrgId":"None",
+         "accessKey":"None",
+         "cognitoAuthenticationType":"None",
+         "cognitoAuthenticationProvider":"None",
+         "userArn":"None",
+         "userAgent":"curl/7.68.0",
+         "user":"None"
+      },
+      "domainName":"fq7q8ldwc8.execute-api.us-east-1.amazonaws.com",
+      "apiId":"fq7q8ldwc8"
+   }
+}
